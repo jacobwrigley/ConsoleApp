@@ -10,6 +10,9 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+            var cookie = new HttpCookie();
+            cookie["name"] = "Jacob";
+            Console.WriteLine(cookie["name"]);
         }
     }
 }
